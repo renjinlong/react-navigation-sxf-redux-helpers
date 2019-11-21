@@ -1,0 +1,28 @@
+{
+  "name": "react-navigation-sxf-redux-helpers",
+  "description": "Redux middleware and utils for React Navigation",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "renjinlong",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "url": "https://github.com/renjinlong/react-navigation-sxf-redux-helpers.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "invariant": "^2.2.2"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.108.0",
+    "react": "^16.4.0"
+  },
+  "files": [
+    "src",
+    "index.d.ts"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "@react-navigation/core": "*",
+    "redux": "*"
+  }
+}
